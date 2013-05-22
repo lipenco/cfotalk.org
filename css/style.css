@@ -292,15 +292,61 @@ background-image: url(../img/dot-pattern.png);
   font-size:16pt;
   line-height:22pt;
   letter-spacing:1px;
+  text-align: justify;
 }
 
 .content2{
-  margin-top:300px;
+  margin-top:30px;
   background: url('../img/bag2.png') repeat;
   padding: 75px 50px;
   font-size:16pt;
   line-height:22pt;
   letter-spacing:1px;
+  text-align: center;
+}
+.span4 .ramka {
+  position: relative;
+  left: -60px;
+}
+
+.span4 .ramka:hover {
+-webkit-transform: rotate(-5deg);
+   -moz-transform: rotate(-5deg);
+   -o-transform: rotate(-5deg);
+   transform: rotate(-5deg);
+  /* Safari and Chrome */
+}
+
+ .icon{
+  width: 90px;
+  position: relative;
+ left: 103px;
+ bottom: -93px;
+ text-align: center;
+}
+
+ .icon:hover {
+zoom: 1;
+        filter: alpha(opacity=10);
+        opacity: 0.1;
+        -webkit-transition: opacity .15s ease-in-out;
+        -moz-transition: opactiy .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+        -o-transition: opacity .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
+ }
+
+ .span4 p {
+  position: relative;
+  left: -20px;
+  width: 250px;
+  text-align: center;
+}
+
+.span4 p:hover {
+   transform: scale(0.9);
+-ms-transform: scale(0.9); /* IE 9 */
+-webkit-transform: scale(0.9); 
 }
 
 .content .firstcharacter { 
@@ -317,14 +363,11 @@ background-image: url(../img/dot-pattern.png);
 }
 
 .double-border{
-  height:3px;
+  height:10px;
   border-top:1px solid black;
   border-bottom:1px solid black;
   margin-bottom:50px;
 }
-
-
-
 
 .info{
   width:100%;
@@ -337,7 +380,34 @@ background-image: url(../img/dot-pattern.png);
   height:30px;
 }
 
+.attending {
+  background-image: url('../img/bag2.png') repeat;
+}
 
+.ramka {
+  width: 300px;
+  height: 260px;
+  background-image: url('../img/ramka.jpg');
+  margin: 20px 20px 20px 20px;
+}
+
+.break {
+background: url(../img/border2.png) repeat-x;
+padding:0 ;
+margin:0;
+margin-bottom: -30px;
+}
+
+.break {
+position: relative;
+left: 0;
+bottom: 0;
+display: block;
+width: 100%;
+height: 46px;
+margin-left: -25px;
+padding:0 0 0 0 ;
+}
 
 /*
 .left-info p:first-child, .right-info p:first-child {
@@ -379,6 +449,14 @@ background-image: url(../img/dot-pattern.png);
 
 .right-info {
   float:right;
+}
+
+.left-header {
+  width:150px;
+}
+
+.right-header {
+  width:350px;
 }
 
 .left-content {
