@@ -313,13 +313,46 @@ background-image: url(../img/dot-pattern.png);
   line-height:22pt;
   letter-spacing:1px;
   text-align: center;
+  margin-top: 0;
 }
 
 .content3 p, .content2 p {
   text-align: justify;
   padding-top: 30px;
+  font-size: 20px;
   }
 
+.news {
+  width: 1050px;
+}
+
+.content3 {
+  margin-top:30px;
+  background: url('../img/bag.png') repeat;
+  padding: 75px 50px;
+  font-size:14pt;
+  line-height:22pt;
+  letter-spacing:1px;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+.footer {
+  margin-top:30px;
+  background: url('../img/bag4.png') repeat;
+  padding: 75px 50px;
+  font-size:14pt;
+  line-height:22pt;
+  letter-spacing:1px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.face {
+  height: 100px;
+  color: blue;
+}
 
 .span4 .ramka {
   position: relative;
@@ -415,17 +448,28 @@ margin:0;
 margin-bottom: -30px;
 }
 
-.break {
+.break, .break2 {
 position: relative;
 left: 0;
 bottom: 0;
 display: block;
 width: 100%;
 height: 46px;
-margin-left: -25px;
 padding:0 0 0 0 ;
+z-index: 1;
+}
+span {
+  margin: 0;
+padding: 0;
+border: 0;
 }
 
+.break2 {
+background: url(../img/border2a.png) repeat-x;
+padding:0 ;
+margin:0;
+margin-bottom: 60px;
+}
 /*
 .left-info p:first-child, .right-info p:first-child {
   font-size:9pt;
@@ -805,75 +849,14 @@ padding:0 0 0 0 ;
   font-weight:bold;
 }
 
-.footer-wrapper{
-  width:100%;
-  border-top:1px solid black;
-  background-image: url(..img/bag3.png);
-}
 
-.footer {
-  width:800px;
-  margin:0 auto;
-  padding:50px 0;
-  display:block !important;
-  font-size:11pt;
-  background-image: url(..img/bag3.png);
-}
 
 .footer-logo{
   float:left;
   width:88px;
 }
 
-.footer-right {
-  float:right;
-  width:712px;
-}
 
-.footer-top {
-  width:586px;
-  float:left;
-  font-size:11pt;
-  text-transform: uppercase;
-  font-family:"proxima-nova";
-  font-weight:800;
-  letter-spacing: 2px;
-  padding-bottom:20px;
-  float:right;
-}
-
-.footer-bottom {
-  border-top:1px solid black;
-  text-align:right;
-  width:586px;
-  padding-top:20px;
-  float:right;
-}
-
-.footer-bottom-left{
-  float:left;
-}
-
-.footer-bottom-right{
-  float:right;
-  letter-spacing: 0;
-}
-
-.footer .navigation{
-  list-style-type: none;
-}
-
-.footer .navigation li{
-  float:left;
-  width:178px;
-  text-align:right;
-  font-size:11pt;
-  text-transform: uppercase;
-  font-family:"proxima-nova";
-  font-weight:800;
-  letter-spacing: 2px;
-  padding:20px 0;
-}
 
 .footer-logo a{
   width:89px;
