@@ -304,6 +304,23 @@ background-image: url(../img/dot-pattern.png);
   letter-spacing:1px;
   text-align: center;
 }
+
+.content3 {
+  margin-top:30px;
+  background: url('../img/bag3.png') repeat;
+  padding: 75px 50px;
+  font-size:14pt;
+  line-height:22pt;
+  letter-spacing:1px;
+  text-align: center;
+}
+
+.content3 p, .content2 p {
+  text-align: justify;
+  padding-top: 30px;
+  }
+
+
 .span4 .ramka {
   position: relative;
   left: -60px;
