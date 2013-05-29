@@ -282,7 +282,7 @@ background-image: url(../img/dot-pattern.png);
 
 .logo_alt a{
   background:url(../img/swiss-logo.jpg);
-  opacity:0;
+  opacity:0.9;
 }
 
 .content{
