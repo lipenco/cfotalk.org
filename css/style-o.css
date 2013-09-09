@@ -273,7 +273,7 @@ input[type=submit] {
 }
 
 .content2{
-  margin-top: 0px;
+  margin: 0 0 30px 0;
   background: #F7F5E2;
   padding: 75px 50px 20px 50px ;
   font-size:16pt;
