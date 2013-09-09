@@ -190,7 +190,7 @@ input[type=submit] {
 .header-image {
   position:absolute;
   top:0;
-  bottom:15%;
+  bottom:0;
   overflow:hidden;
   left:0;
   right:0;
@@ -281,7 +281,7 @@ input[type=submit] {
   letter-spacing:1px;
 }
 
-.content .firstcharacter { 
+.firstcharacter { 
   float: left; 
   font-size: 100px; 
   line-height: 30px; 
@@ -337,7 +337,7 @@ input[type=submit] {
 }
 
 .partners:nth-of-type(2) {
- margin-left: 3em;
+ margin-left: 4em;
 }
 
 .photo-title {
@@ -349,8 +349,21 @@ input[type=submit] {
 }
 
 
+
 .partner-section {
   margin-left: 50px;
+  padding-top: 20px;
+}
+
+.partner-section h1 {
+  text-align: center;
+  font-style: italic;
+}
+
+.partner-section p {
+ font-size:16pt;
+  line-height:22pt;
+  letter-spacing:1px;
 }
 /*
 .left-info p:first-child, .right-info p:first-child {
@@ -383,9 +396,14 @@ input[type=submit] {
   margin-bottom:15px;
 }
 
-.left-header {
+.left-header2 {
   width:250px;
-  padding-top: 20pt;
+  padding-top: 40pt;
+  font-size:1.5em;
+  font-family:"proxima-nova";
+  font-weight:800;
+  margin-bottom:15px;
+  margin-left: -20px;
 }
 
 .right-header {
@@ -702,7 +720,7 @@ input[type=submit] {
 
 .footer-right {
   float:right;
-  width:712px;
+  width:412px;
 }
 
 .footer-top {
@@ -751,9 +769,9 @@ input[type=submit] {
 }
 
 .footer-logo a{
-  width:89px;
-  height:96px;
-  background:url(-/img/footer-logo.png);
+  width:200px;
+  height:66px;
+  background:url(../img/logo.png);
   text-indent:-9999px;
   cursor:pointer;
   display:block;
@@ -936,3 +954,4 @@ button.mfp-close:hover, .close-button:hover {opacity: 1; cursor: pointer;}
        only screen and (-o-min-device-pixel-ratio: 2/1),
        only screen and (min-device-pixel-ratio: 2) {
 }
+
