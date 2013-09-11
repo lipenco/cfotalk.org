@@ -1,24 +1,4 @@
-/* 
-Theme Name: CCL
-Version: 1.0
-Author: Fuzzco
-Author URI: http://www.fuzzco.com
-*/
 
-/* $typography & colors
-------------------------------------------------
-
-"din-condensed-web" Regular (400)
-"ff-tisa-web-pro" Regular (400) Bold (700)
-  
-black #424039
-brown #7C5531
-green #47746F
-blue  #4F799E
-pink  #A04E6C
-                        */
-
-/* $reset
 --------------------------------------------- */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
@@ -62,12 +42,15 @@ table {
 --------------------------------------------- */
 body {  
   font-family: "minion-pro", Georgia, Times, serif;
+  background: url('../img/card2.jpg');
 /*
   font-weight: 400;
   font-size: 62.5%;
   line-height: 100%;
 */
-  background: #F7F5E2;
+ /* background: #F7F5E2;*/
+/*  background: -webkit-gradient(linear, 0% 24%, 0% 100%, from(#F2F2F2), to(#303C52));
+  -moz-linear-gradient(19% 75% 90deg,#FFFFFF, #303c52);*/
   color: #333;
   -webkit-text-size-adjust: none;
   }
@@ -170,18 +153,7 @@ input[type=submit] {
   margin:0 auto;
 }
 
-.register a{
-  width:50px;
-  height:165px;
-  background:url(-/img/register.png);
-  position:fixed;
-  left:0;
-  top:290px;
-  text-indent:-9999px;
-  cursor:pointer;
-  z-index:9999;
-  margin-left:-5px;
-}
+
 
 .register a:hover{
   margin-left:0px;
@@ -195,10 +167,11 @@ input[type=submit] {
   left:0;
   right:0;
   z-index:-1;
-  border:10px solid #F7F5E2;
-
-
 }
+
+
+
+
 
 .header {
   padding-top:50px;
@@ -208,7 +181,7 @@ input[type=submit] {
 
 .header .navigation{
   list-style-type: none;
-/*  position:fixed; */
+/*position:fixed; */
   z-index:999;
   margin: 0 auto;
 }
@@ -228,7 +201,17 @@ input[type=submit] {
   font-weight:800;
   letter-spacing: 2px;
   padding:20px 0;
+
 }
+
+.tlo {
+ background: url('../img/card2.jpg');
+
+}
+
+
+ 
+
 
 .header .navigation-wrapper {
   position:absolute;
@@ -238,6 +221,7 @@ input[type=submit] {
   right:0;
   height:55px;
   z-index:9990;
+
 }
 
 .logo a, .logo_alt a{
@@ -265,20 +249,31 @@ input[type=submit] {
 
 .content{
   margin-top:300px;
-  background: #F7F5E2;
+  background: url('../img/card2.jpg');
+/*  background: #F7F5E2;*/
+/* background: -webkit-gradient(linear, 0% 24%, 0% 100%, from(#F2F2F2), to(#303C52));
+  -moz-linear-gradient(19% 75% 90deg,#FFFFFF, #303c52);*/
   padding: 75px 50px 20px 50px ;
   font-size:16pt;
   line-height:22pt;
   letter-spacing:1px;
+
 }
 
 .content2{
   margin: 0 0 30px 0;
-  background: #F7F5E2;
   padding: 75px 50px 20px 50px ;
   font-size:16pt;
   line-height:22pt;
   letter-spacing:1px;
+  font-weight: 100;
+
+}
+
+.team_bio {
+   background: -webkit-gradient(linear, 0% 24%, 0% 100%, from(#F2F2F2), to(#303C52));
+  -moz-linear-gradient(19% 75% 90deg,#FFFFFF, #303c52);
+  border-top:1px solid black;
 }
 
 .firstcharacter { 
@@ -317,18 +312,17 @@ input[type=submit] {
 }
 
 .left-info img {
-   margin-bottom: -25px;
-   margin-left: 25px;
+   margin-left: 30px;
 }
 
 .left-info em {
-  line-height: 60px;
+  line-height: 80px;
   padding-left: 1em;
   font-weight: 500;
 }
 
 .content3 {
-  background-color: #CCE0C0;
+  background-color:  #DAE0E8;
    border-top:1px solid black;
 }
 
@@ -353,6 +347,7 @@ input[type=submit] {
 .partner-section {
   margin-left: 50px;
   padding-top: 20px;
+    border-top:1px solid black;
 }
 
 .partner-section h1 {
@@ -382,7 +377,7 @@ input[type=submit] {
 
 .icons img {
   width: 60px;
-  line-height: 60px;
+  line-height: 150px;
 }
 
 .left-header, .right-header {
@@ -703,6 +698,8 @@ input[type=submit] {
 .footer-wrapper{
   width:100%;
   border-top:1px solid black;
+     background: -webkit-gradient(linear, 0% 24%, 0% 100%, from(#F2F2F2), to(#303C52));
+  -moz-linear-gradient(19% 75% 90deg,#FFFFFF, #303c52);
 }
 
 .footer {
