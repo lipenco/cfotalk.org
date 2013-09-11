@@ -42,7 +42,7 @@ table {
 --------------------------------------------- */
 body {  
   font-family: "minion-pro", Georgia, Times, serif;
-  background: url('../img/card2.jpg');
+  background: #F2F2F2;
 /*
   font-weight: 400;
   font-size: 62.5%;
@@ -205,8 +205,7 @@ input[type=submit] {
 }
 
 .tlo {
- background: url('../img/card2.jpg');
-
+ background-color: #F2F2F2;
 }
 
 
@@ -247,9 +246,10 @@ input[type=submit] {
   opacity:0;
 }
 
-.content{
+.content {
   margin-top:300px;
-  background: url('../img/card2.jpg');
+  background: #F2F2F2;
+  /*url('../img/card2.jpg');*/
 /*  background: #F7F5E2;*/
 /* background: -webkit-gradient(linear, 0% 24%, 0% 100%, from(#F2F2F2), to(#303C52));
   -moz-linear-gradient(19% 75% 90deg,#FFFFFF, #303c52);*/

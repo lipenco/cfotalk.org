@@ -446,7 +446,6 @@ function perform_wizardry() {
     {
       $('.navigation-wrapper').css('position','fixed');
       $('.navigation-wrapper').css('top',0);
-      $('.navigation-wrapper').removeClass('tlo');
     } else {
       $('.navigation-wrapper').css('position','absolute');
       $('.navigation-wrapper').css('top',40);
@@ -454,8 +453,8 @@ function perform_wizardry() {
     
     if (window_scroll > 300)
     {
-      $('.navigation-wrapper').addClass('tlo');
-      $('.navigation-wrapper').css('box-shadow', '0 4px 6px -2px #303C52');
+      $('.navigation-wrapper').css('background-color','#F2F2F2');
+      $('.navigation-wrapper').css('box-shadow', '0 4px 2px -2px #999');
       
       if($.browser.msie){
         if(parseFloat($.browser.version) < 9){
@@ -473,7 +472,6 @@ function perform_wizardry() {
       $('.navigation-wrapper').css('background-color','transparent');
       $('.navigation-wrapper').css('box-shadow', 'none');
       $('.navigation-wrapper').css('border', 'none');
-       $('.navigation-wrapper').removeClass('tlo');
       
       if ($logo_alt.hasClass('nudged')) {
       $logo_alt.animate({'margin-top': '20px'}, 'fast').removeClass('nudged');
