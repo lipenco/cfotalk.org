@@ -454,7 +454,7 @@ function perform_wizardry() {
     if (window_scroll > 300)
     {
       $('.navigation-wrapper').css('background-color','#F2F2F2');
-      $('.navigation-wrapper').css('box-shadow', '0 4px 2px -2px #999');
+      $('.navigation-wrapper').css('box-shadow', '0 4px 6px -2px #303c52');
       
       if($.browser.msie){
         if(parseFloat($.browser.version) < 9){
@@ -513,4 +513,3 @@ function perform_wizardry_speakers() {
       $('.navigation-wrapper').css('border', 'none');
     }
 }
-
