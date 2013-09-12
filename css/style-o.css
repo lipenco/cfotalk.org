@@ -326,11 +326,11 @@ input[type=submit] {
 }
 
 .partners {
-  margin: 2em 0 3em 0;
+  margin: 2em 0 3em 4em;
 }
 
 .partners:nth-of-type(2) {
- margin-left: 4em;
+ margin-left: 3em;
 }
 
 .photo-title {
@@ -344,7 +344,6 @@ input[type=submit] {
 
 
 .partner-section {
-  margin-left: 50px;
   padding-top: 20px;
     border-top:1px solid black;
 }
@@ -359,6 +358,17 @@ input[type=submit] {
   line-height:22pt;
   letter-spacing:1px;
 }
+
+.logos {
+  padding-top: 40px;
+   padding-bottom: 60px;
+}
+
+.logos .span2 {
+  margin-right: 40px;
+  margin-left: 60px;
+}
+
 /*
 .left-info p:first-child, .right-info p:first-child {
   font-size:9pt;
