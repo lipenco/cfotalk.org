@@ -481,9 +481,6 @@ function perform_wizardry() {
       $logo_alt.animate({'margin-top': '20px'}, 'fast').removeClass('nudged');
       }
     }
-    if (window_scroll > 500) {
-      $('.icon').addClass('animated rotateIn');
-    }
 }
 
 function perform_wizardry_speakers() {
