@@ -270,9 +270,9 @@ input[type=submit] {
 }
 
 .team_bio {
-   background: -webkit-gradient(linear, 0% 24%, 0% 100%, from(#F2F2F2), to(#303C52));
-  -moz-linear-gradient(19% 75% 90deg,#FFFFFF, #303c52);
-  border-top:1px solid black;
+  background: url('../img/card.png');
+  border-top: 1px solid black;
+
 }
 
 .firstcharacter { 
@@ -346,6 +346,7 @@ input[type=submit] {
 .partner-section {
   padding-top: 20px;
     border-top:1px solid black;
+    box-shadow: 0 4px 6px -2px #303c52;
 }
 
 .partner-section h1 {
