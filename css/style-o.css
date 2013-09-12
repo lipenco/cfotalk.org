@@ -397,8 +397,8 @@ box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
   -o-transition:All 1s ease-in-out;
 }
 
-.icon {
-   -vendor-animation-delay: 2s;
+.heading  {
+  font-weight: lighter;
 }
 
 .icons img:hover {
