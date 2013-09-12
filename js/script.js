@@ -424,6 +424,10 @@ function getCurrentRow(div) {
 }
 
 function perform_wizardry() {
+    
+      
+    
+
 
     window_scroll = $(this).scrollTop();
 
@@ -476,6 +480,9 @@ function perform_wizardry() {
       if ($logo_alt.hasClass('nudged')) {
       $logo_alt.animate({'margin-top': '20px'}, 'fast').removeClass('nudged');
       }
+    }
+    if (window_scroll > 500) {
+      $('.icon').addClass('animated rotateIn');
     }
 }
 

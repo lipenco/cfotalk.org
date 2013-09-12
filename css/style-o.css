@@ -391,6 +391,23 @@ box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
 .icons img {
   width: 60px;
   line-height: 150px;
+  transition:All 1s ease-in-out;
+  -webkit-transition:All 1s ease-in-out;
+  -moz-transition:All 1s ease-in-out;
+  -o-transition:All 1s ease-in-out;
+}
+
+.icon {
+   -vendor-animation-delay: 2s;
+}
+
+.icons img:hover {
+  opacity: 0.7;
+  transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
 }
 
 .left-header, .right-header {
