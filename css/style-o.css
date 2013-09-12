@@ -270,8 +270,11 @@ input[type=submit] {
 }
 
 .team_bio {
-  background: url('../img/card.png');
+  background: url('../img/subtle-pattern-3.jpg');
   border-top: 1px solid black;
+  -webkit-box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
+-moz-box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
+box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
 
 }
 
