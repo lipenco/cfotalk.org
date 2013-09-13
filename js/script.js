@@ -425,9 +425,7 @@ function getCurrentRow(div) {
 
 function perform_wizardry() {
     
-      
     
-
 
     window_scroll = $(this).scrollTop();
 
