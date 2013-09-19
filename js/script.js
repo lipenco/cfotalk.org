@@ -264,7 +264,8 @@ $(document).ready(function(){
       $(this).addClass('current');
       $(this).closest('.slideshow').find('.slide:eq('+dotIndex+')').fadeIn().addClass('current');
     });
-    
+
+
     // ARROWS
     $('.arrow').click(function(e){
       e.preventDefault();
@@ -424,6 +425,7 @@ function getCurrentRow(div) {
 }
 
 function perform_wizardry() {
+
     
     
 

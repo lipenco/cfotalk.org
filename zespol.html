@@ -63,12 +63,12 @@
               Nasze specjalizacje:
             </div>
             <div class="icons">
-            <p><img src="img/icon1.png"><em>Doradztwo podatkowe</em></p>
-            <p><img src="img/icon5.png"><em>Zakładanie, likwidacja i przekształcenia spółek</em></p>
-            <p><img src="img/icon3.png"><em>Usługi księgowe i płacowe</em></p>
-            <p><img src="img/icon2.png"><em>Podatki międzynarodowe</em></p>
-             <p><img src="img/icon4.png"><em>Tajemnica zawodowa</em></p>
-             <p><img src="img/icon6.png"><em>Opodatkowanie nieruchomości</em></p>
+  <p><a href=""><img src="img/icon1.png"><em>Doradztwo podatkowe</em></a></p>
+  <p><a href=""><img src="img/icon5.png"><em>Zakładanie, likwidacja i przekształcenia spółek</em></a></p>
+  <p><a href=""><img src="img/icon3.png"><em>Usługi księgowe i płacowe</em></a></p>
+  <p><a href=""><img src="img/icon2.png"><em>Podatki międzynarodowe</em></a></p>
+  <p><a href=""><img src="img/icon4.png"><em>Tajemnica zawodowa</em></a></p>
+  <p><a href=""><img src="img/icon6.png"><em>Opodatkowanie nieruchomości</em></a></p>
              </div>
           </div>
         </div>
@@ -145,14 +145,12 @@
          </div>
  <script>
   $(document).ready(function() {
+  
 
     $("#bio_row_1").insertAfter("#trigger_row_1");
-
     $(".trigger").click(function() {
       $(".trigger").removeClass("active");
-
       var activeTab = $(this).attr("href");
-
       if($(activeTab).is(":visible")) {
         $(".team_bio").slideUp().removeClass("is_showing");
         $(this).removeClass("active");
