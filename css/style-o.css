@@ -270,11 +270,8 @@ input[type=submit] {
 }
 
 .team_bio {
-  background: url('../img/subtle-pattern-3.jpg');
+  background: #f8f8f8;
   border-top: 1px solid black;
-  -webkit-box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
--moz-box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
-box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
 
 }
 
@@ -345,16 +342,28 @@ box-shadow: inset -1px 10px 59px -11px rgba(48,60,82,1);
 
 
 .partner-section {
-  padding-top: 20px;
-    border-top:1px solid black;
+
+   /* border-top:1px solid black;*/
+    -webkit-transform: translateZ(0);
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url('../img/tlo.jpg');
+    padding: 58px 0;
 }
 
-.partner-section h1 {
+.partner-section2 {
+  padding-top: 60px;
+}
+
+.partner-section h1, .partner-section2 h1 {
   text-align: center;
   font-style: italic;
 }
 
-.partner-section p {
+.partner-section p , .partner-section2 p{
  font-size:16pt;
   line-height:22pt;
   letter-spacing:1px;
